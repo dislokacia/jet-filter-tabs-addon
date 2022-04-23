@@ -3,7 +3,7 @@ This plugin allows you to display your Listing Grid widget like Tabs and even fi
 
 ## Config example
 You need to install the JetEngine (and JetSmartFilters plugin in case you want to filter it) before installing this addon.
-You should create the Listin Item with next conditions:
+You should create the Listing Item with next conditions:
 1) 2 sections https://prnt.sc/NmeQlg5xK_Cz
 2) the 1st section need to have the classname jet-tab https://prnt.sc/DV2KNVZ_OEUX and it should have the widget with the dynamic tab name https://prnt.sc/3QrE7XzB88pE
 3) it is better to setup the second section with min height https://prnt.sc/gy1pBsRV-RtE , also you need to add the classname to it jet-content https://prnt.sc/gAnkNwixm5qh and please add all the needed content of the tab.

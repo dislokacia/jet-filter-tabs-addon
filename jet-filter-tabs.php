@@ -2,7 +2,7 @@
 /**
  * Plugin Name: JetFilterTabs
  * Description: With this plugin you can filter the listing grid looks like tabs
- * Plugin URI:  https://github.com/dislokacia/jet-filtering-tabs
+ * Plugin URI:  https://github.com/dislokacia/jet-filter-tabs
  * Version:     1.0.0
  * Author:      Andrew Rook
  * Author URI:  https://github.com/dislokacia
@@ -22,4 +22,4 @@ function jet_filter_tabs_scripts(){
  
 	wp_enqueue_style( 'jet_filter_tabs_styles', plugins_url( '/assets/css/style.css', __FILE__ ), '', '1.0' );
 }
-add_action( 'wp_enqueue_scripts', 'jet_filter_tabs_scripts' );
+add_action( 'jet-engine/listings/frontend-scripts', 'jet_filter_tabs_scripts' );
